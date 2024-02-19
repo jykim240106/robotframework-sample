@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.8.10 on linux)" generated="20240213 13:24:18.998" rpa="false" schemaversion="3">
+<suite id="s1" name="Project2" source="/home/henry/robot/day2/05-todo-test (ride)/project2.robot">
+<test id="s1-t1" name="TC1" line="9">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://todomvc.com/examples/vue/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240213 13:24:19.073" level="INFO">Opening browser 'chrome' to base url 'http://todomvc.com/examples/vue/'.</msg>
+<status status="PASS" starttime="20240213 13:24:19.073" endtime="20240213 13:24:20.580"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>css=input.new-todo</arg>
+<arg>New Todo</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240213 13:24:20.583" level="INFO">Typing text 'New Todo' into text field 'css=input.new-todo'.</msg>
+<msg timestamp="20240213 13:24:20.675" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20240213 13:24:20.675" level="FAIL">Element with locator 'css=input.new-todo' not found.</msg>
+<status status="FAIL" starttime="20240213 13:24:20.582" endtime="20240213 13:24:20.679"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>css=input.new-todo</arg>
+<arg>ENTER</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="NOT RUN" starttime="20240213 13:24:20.680" endtime="20240213 13:24:20.680"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20240213 13:24:20.680" endtime="20240213 13:24:20.680"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20240213 13:24:20.680" endtime="20240213 13:24:20.680"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Complete Successfully - chrome</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20240213 13:24:20.680" endtime="20240213 13:24:20.680"/>
+</kw>
+<status status="FAIL" starttime="20240213 13:24:19.072" endtime="20240213 13:24:20.681">Element with locator 'css=input.new-todo' not found.</status>
+</test>
+<test id="s1-t2" name="TC2" line="17">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240213 13:24:20.682" level="INFO">Opening browser 'chrome' to base url 'http://todomvc.com/examples/vue/'.</msg>
+<status status="PASS" starttime="20240213 13:24:20.681" endtime="20240213 13:24:22.564"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>css=input.new-todo</arg>
+<arg>${new-todo}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240213 13:24:22.567" level="INFO">Typing text 'New Todo' into text field 'css=input.new-todo'.</msg>
+<msg timestamp="20240213 13:24:22.624" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20240213 13:24:22.624" level="FAIL">Element with locator 'css=input.new-todo' not found.</msg>
+<status status="FAIL" starttime="20240213 13:24:22.566" endtime="20240213 13:24:22.624"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>css=input.new-todo</arg>
+<arg>ENTER</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="NOT RUN" starttime="20240213 13:24:22.624" endtime="20240213 13:24:22.624"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20240213 13:24:22.625" endtime="20240213 13:24:22.625"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20240213 13:24:22.625" endtime="20240213 13:24:22.625"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Complete Successfully - chrome</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20240213 13:24:22.625" endtime="20240213 13:24:22.625"/>
+</kw>
+<status status="FAIL" starttime="20240213 13:24:20.681" endtime="20240213 13:24:22.625">Element with locator 'css=input.new-todo' not found.</status>
+</test>
+<test id="s1-t3" name="TC3" line="25">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://todomvc.com/examples/vue/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240213 13:24:22.626" level="INFO">Opening browser 'chrome' to base url 'http://todomvc.com/examples/vue/'.</msg>
+<status status="PASS" starttime="20240213 13:24:22.626" endtime="20240213 13:24:24.408"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://body/section/header/input</arg>
+<arg>New Todo</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240213 13:24:24.410" level="INFO">Typing text 'New Todo' into text field 'xpath://body/section/header/input'.</msg>
+<msg timestamp="20240213 13:24:24.476" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20240213 13:24:24.476" level="FAIL">Element with locator 'xpath://body/section/header/input' not found.</msg>
+<status status="FAIL" starttime="20240213 13:24:24.409" endtime="20240213 13:24:24.476"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>xpath://body/section/header/input</arg>
+<arg>ENTER</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="NOT RUN" starttime="20240213 13:24:24.476" endtime="20240213 13:24:24.476"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20240213 13:24:24.477" endtime="20240213 13:24:24.477"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20240213 13:24:24.477" endtime="20240213 13:24:24.477"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Complete Successfully - chrome</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20240213 13:24:24.477" endtime="20240213 13:24:24.477"/>
+</kw>
+<status status="FAIL" starttime="20240213 13:24:22.626" endtime="20240213 13:24:24.477">Element with locator 'xpath://body/section/header/input' not found.</status>
+</test>
+<status status="FAIL" starttime="20240213 13:24:18.999" endtime="20240213 13:24:24.478"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="Project2">Project2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

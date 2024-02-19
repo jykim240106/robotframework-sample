@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.8.10 on linux)" generated="20240213 13:22:26.127" rpa="true" schemaversion="3">
+<suite id="s1" name="001-Rpa-Ex" source="/home/henry/robot/day2/06-rpa/001-rpa-ex.robot">
+<test id="s1-t1" name="Search Keword" line="5">
+<kw name="Open browser">
+<arg>https://www.naver.com</arg>
+<msg timestamp="20240213 13:22:26.139" level="FAIL">No keyword with name 'Open browser' found.</msg>
+<status status="FAIL" starttime="20240213 13:22:26.139" endtime="20240213 13:22:26.139"/>
+</kw>
+<kw name="Input text">
+<arg>id:query</arg>
+<arg>robot</arg>
+<status status="NOT RUN" starttime="20240213 13:22:26.139" endtime="20240213 13:22:26.139"/>
+</kw>
+<status status="FAIL" starttime="20240213 13:22:26.138" endtime="20240213 13:22:26.139">No keyword with name 'Open browser' found.</status>
+</test>
+<status status="FAIL" starttime="20240213 13:22:26.128" endtime="20240213 13:22:26.140"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="001-Rpa-Ex">001-Rpa-Ex</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240213 13:22:26.137" level="ERROR">Error in file '/home/henry/robot/day2/06-rpa/001-rpa-ex.robot' on line 2: Importing library 'RPA.Browser' failed: ModuleNotFoundError: No module named 'RPA'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /usr/local/bin
+  /usr/lib/python38.zip
+  /usr/lib/python3.8
+  /usr/lib/python3.8/lib-dynload
+  /home/henry/.local/lib/python3.8/site-packages
+  /usr/local/lib/python3.8/dist-packages
+  /usr/lib/python3/dist-packages</msg>
+</errors>
+</robot>

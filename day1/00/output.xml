@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.8.10 on win32)" generated="2024-02-19T13:42:53.107730" rpa="false" schemaversion="5">
+<suite id="s1" name="01" source="C:\robot\day1\00\01.robot">
+<test id="s1-t1" name="My Test" line="8">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-02-19T13:42:53.124680" level="INFO">Hello, world!</msg>
+<arg>${MESSAGE}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-19T13:42:53.124680" elapsed="0.000000"/>
+</kw>
+<doc>Example test</doc>
+<status status="PASS" start="2024-02-19T13:42:53.124680" elapsed="0.001070"/>
+</test>
+<test id="s1-t2" name="Another Test" line="14">
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${MESSAGE}</arg>
+<arg>Hello, world!</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2024-02-19T13:42:53.126749" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-02-19T13:42:53.126749" elapsed="0.000000"/>
+</test>
+<status status="PASS" start="2024-02-19T13:42:53.108742" elapsed="0.019563"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="01">01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

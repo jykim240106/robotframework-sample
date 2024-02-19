@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.8.10 on linux)" generated="20240213 12:28:41.154" rpa="false" schemaversion="3">
+<suite id="s1" name="08-For-Loop" source="/home/henry/robot/day2/03-test-cases-loop/08-for-loop.robot">
+<test id="s1-t1" name="Repeat Example" line="47">
+<kw name="Repeat Keyword" library="BuiltIn">
+<arg>5</arg>
+<arg>Log To Console</arg>
+<arg>1</arg>
+<doc>Executes the specified keyword multiple times.</doc>
+<msg timestamp="20240213 12:28:41.172" level="INFO">Repeating keyword, round 1/5.</msg>
+<kw name="Log To Console" library="BuiltIn">
+<arg>1</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240213 12:28:41.172" endtime="20240213 12:28:41.173"/>
+</kw>
+<msg timestamp="20240213 12:28:41.173" level="INFO">Repeating keyword, round 2/5.</msg>
+<kw name="Log To Console" library="BuiltIn">
+<arg>1</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240213 12:28:41.173" endtime="20240213 12:28:41.173"/>
+</kw>
+<msg timestamp="20240213 12:28:41.173" level="INFO">Repeating keyword, round 3/5.</msg>
+<kw name="Log To Console" library="BuiltIn">
+<arg>1</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240213 12:28:41.173" endtime="20240213 12:28:41.173"/>
+</kw>
+<msg timestamp="20240213 12:28:41.173" level="INFO">Repeating keyword, round 4/5.</msg>
+<kw name="Log To Console" library="BuiltIn">
+<arg>1</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240213 12:28:41.173" endtime="20240213 12:28:41.173"/>
+</kw>
+<msg timestamp="20240213 12:28:41.173" level="INFO">Repeating keyword, round 5/5.</msg>
+<kw name="Log To Console" library="BuiltIn">
+<arg>1</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240213 12:28:41.173" endtime="20240213 12:28:41.173"/>
+</kw>
+<status status="PASS" starttime="20240213 12:28:41.172" endtime="20240213 12:28:41.173"/>
+</kw>
+<status status="PASS" starttime="20240213 12:28:41.172" endtime="20240213 12:28:41.173"/>
+</test>
+<status status="PASS" starttime="20240213 12:28:41.155" endtime="20240213 12:28:41.174"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="08-For-Loop">08-For-Loop</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

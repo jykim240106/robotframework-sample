@@ -1,0 +1,14 @@
+1677217593655	geckodriver	INFO	Listening on 127.0.0.1:44789
+1677217593665	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42991" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqCCMwK"
+1677217594324	Marionette	INFO	Marionette enabled
+1677217594328	Marionette	INFO	Listening on port 45003
+Read port: 45003
+[Parent 32839, Main Thread] WARNING: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed: 'glib warning', file /build/firefox-gaF6Cx/firefox-109.0.1+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:32839): GLib-GIO-CRITICAL **: 14:46:34.429: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+[Parent 32839, Main Thread] WARNING: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed: 'glib warning', file /build/firefox-gaF6Cx/firefox-109.0.1+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:32839): GLib-GIO-CRITICAL **: 14:46:34.430: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+WebDriver BiDi listening on ws://127.0.0.1:42991
+1677217594526	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.

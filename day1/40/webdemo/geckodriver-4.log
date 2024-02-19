@@ -1,0 +1,18 @@
+1677215818005	geckodriver	INFO	Listening on 127.0.0.1:47247
+1677215818026	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51017" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerPN72I"
+1677215818863	Marionette	INFO	Marionette enabled
+1677215818868	Marionette	INFO	Listening on port 46633
+Read port: 46633
+[Parent 27637, Main Thread] WARNING: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed: 'glib warning', file /build/firefox-gaF6Cx/firefox-109.0.1+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:27637): GLib-GIO-CRITICAL **: 14:16:58.959: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+[Parent 27637, Main Thread] WARNING: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed: 'glib warning', file /build/firefox-gaF6Cx/firefox-109.0.1+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:27637): GLib-GIO-CRITICAL **: 14:16:58.959: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+WebDriver BiDi listening on ws://127.0.0.1:51017
+1677215819087	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerPN72I/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51017/devtools/browser/0fcda465-caea-484a-aaab-4d7a7967a5c3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:7272."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:7272."
+1677217369976	Marionette	INFO	Stopped listening on port 46633
